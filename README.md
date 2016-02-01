@@ -28,7 +28,6 @@ $ ./bin/graspit
 Running the EigenGrasp Planner:
 
 1. Start GraspIt!
-
 ```bash
 $ ./bin/graspit
 ```

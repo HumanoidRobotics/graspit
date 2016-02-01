@@ -15,20 +15,21 @@ $ sudo apt-get install liblapack-dev
 $ sudo apt-get install libqhull-dev
 ```
 
-Getting Started:
+Building GraspIt!:
 ```bash
+$ cd ~
 $ git clone https://github.com/HumanoidRobotics/graspit
-$ cd graspit
+$ cd ~/graspit
 $ qmake-qt4 graspit.pro
 $ make -j4
-$ export GRASPIT=$PWD
-$ ./bin/graspit
 ```
 
 Running the EigenGrasp Planner:
 
 1. Start GraspIt!
 ```bash
+$ cd ~/graspit
+$ export GRASPIT=$PWD
 $ ./bin/graspit
 ```
 2. File->Open->PlannerMug.xml
@@ -36,6 +37,12 @@ $ ./bin/graspit
 4. Set Energy Formulation to Contacts and Quality
 5. Press Init
 6. Press >
+
+Note: You must run: 
+```bash
+$ export GRASPIT=$PWD
+```
+Whenever you open a new terminal, GraspIt! uses the enviroment variable GRASPIT to determine where the world, and robot mesh files are located.
 
 
 User Manual available at:

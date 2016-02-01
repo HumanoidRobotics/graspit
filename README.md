@@ -26,19 +26,17 @@ $ ./bin/graspit
 ```
 
 Running the EigenGrasp Planner:
-1) Start GraspIt!
+
+1. Start GraspIt!
+
 ```bash
 $ ./bin/graspit
 ```
-2) File->Open->PlannerMug.xml
-
-3) Grasp->EigenGrasp Planner...
-
-4) Set Energy Formulation to Contacts and Quality
-
-5) Press Init
-
-6) Press >
+2. File->Open->PlannerMug.xml
+3. Grasp->EigenGrasp Planner...
+4. Set Energy Formulation to Contacts and Quality
+5. Press Init
+6. Press >
 
 
 User Manual available at:

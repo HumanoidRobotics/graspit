@@ -9,24 +9,24 @@ These packages have already been installed on the CLIC lab machines, if you are 
 
 
 ```bash
-sudo apt-get install libqt4-opengl-dev -y
-sudo apt-get install libqt4-dev -y
-sudo apt-get install libqt4-sql-psql -y
-sudo apt-get install libcoin80-dev -y
-sudo apt-get install libsoqt4-dev -y 
-sudo apt-get install libblas-dev -y
-sudo apt-get install liblapack-dev -y 
-sudo apt-get install libqhull-dev -y
+$ sudo apt-get install libqt4-opengl-dev -y
+$ sudo apt-get install libqt4-dev -y
+$ sudo apt-get install libqt4-sql-psql -y
+$ sudo apt-get install libcoin80-dev -y
+$ sudo apt-get install libsoqt4-dev -y 
+$ sudo apt-get install libblas-dev -y
+$ sudo apt-get install liblapack-dev -y 
+$ sudo apt-get install libqhull-dev -y
 ```
 
 Getting Started:
 ```bash
-git clone https://github.com/HumanoidRobotics/graspit
-cd graspit
-qmake-qt4 graspit.pro
-make -j5
-export GRASPIT=$PWD
-./bin/graspit
+$ git clone https://github.com/HumanoidRobotics/graspit
+$ cd graspit
+$ qmake-qt4 graspit.pro
+$ make -j5
+$ export GRASPIT=$PWD
+$ ./bin/graspit
 ```
 
                                  GraspIt!

@@ -25,6 +25,14 @@ $ export GRASPIT=$PWD
 $ ./bin/graspit
 ```
 
+User Manual available at:
+http://www.cs.columbia.edu/~cmatei/graspit/html-manual/graspit-manual.html
+
+This is a fork from: https://github.com/graspit-simulator/graspit
+
+Original README:
+
+
                                  GraspIt!
                               Version 2.2.0 
 
